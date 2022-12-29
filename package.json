@@ -1,0 +1,23 @@
+{
+  "name": "microsoft-website-clone-using-tailwindcss",
+  "version": "1.0.0",
+  "description": "This is a Responsive Microsoft.com Website clone Using Tailwind",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i TailwindCssInput.css -o TailwindCssOutput.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BalajiSai2003/Microsoft-Website-Clone-Using-TailwindCss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BalajiSai2003/Microsoft-Website-Clone-Using-TailwindCss/issues"
+  },
+  "homepage": "https://github.com/BalajiSai2003/Microsoft-Website-Clone-Using-TailwindCss#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
