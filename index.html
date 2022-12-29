@@ -8,6 +8,47 @@
     <link rel="stylesheet" href="TailwindCssOutput.css">
 </head>
 <body>
-    <h1 class="text-3xl bg-black text-white">hi</h1>
+    <div class="navbar flex justify-between items-center h-10 min-w-min">
+        <div class="flex flex-row md:hidden ">
+            <div>
+                <button>
+                    <img src="images/menu.png" alt="menu" class="h-6 px-4">                      
+                </button></div>
+            <div class="feature absolute top-10 w-full bg-gray-100 hidden">
+                <div><button class=" border-gray-200 border-y-2 w-full text-left cursor-pointer p-4 active:border-2 active:border-dashed active:border-black"><a href="#" class=" font-normal text-base ">Microsoft 365</a></button></div>
+                <div><button class=" border-gray-200 border-y-2 w-full text-left cursor-pointer p-4 active:border-2 active:border-dashed active:border-black"><a href="#" class=" font-normal text-base ">Teams</a></button></div>
+                <div><button class=" border-gray-200 border-y-2 w-full text-left cursor-pointer p-4 active:border-2 active:border-dashed active:border-black"><a href="#" class=" font-normal text-base ">Windows</a></button></div>
+                <div><button class=" border-gray-200 border-y-2 w-full text-left cursor-pointer p-4 active:border-2 active:border-dashed active:border-black"><a href="#" class=" font-normal text-base ">Surface</a></button></div>
+                <div><button class=" border-gray-200 border-y-2 w-full text-left cursor-pointer p-4 active:border-2 active:border-dashed active:border-black"><a href="#" class=" font-normal text-base ">More</a></button></div>
+                <div><button class=" border-gray-200 border-y-2 w-full text-left cursor-pointer p-4 active:border-2 active:border-dashed active:border-black"><a href="#" class=" font-normal text-base ">Xbox</a></button></div>
+                <div><button class=" border-gray-200 border-y-2 w-full text-left cursor-pointer p-4 active:border-2 active:border-dashed active:border-black"><a href="#" class=" font-normal text-base ">Support</a></button></div>
+                       
+            </div>
+            <div class="search my-auto">SearchIcon</div>
+        </div>
+        
+        <div class="logo md:order-1 ">
+            <ul class="flex">
+                <li class="px-2 py-2"><img src="images/logo.png" alt="Microsoft logo " class="my-1 h-[22px] md:ml-7"></li>
+                <li class="px-2 hidden md:block">
+                    <ul class="flex">
+                        <li class="px-2 my-4  font-normal text-xs">Microsoft 365</li>
+                        <li class="px-2 my-4  font-normal text-xs">Teams</li>
+                        <li class="px-2 my-4  font-normal text-xs">Windows</li>
+                        <li class="px-2 my-4  font-normal text-xs">Surface</li>
+                        <li class="px-2 my-4  font-normal text-xs">More</li>
+                        <li class="px-2 my-4  font-normal text-xs">Xbox</li>
+                        <li class="px-2 my-4  font-normal text-xs">Support</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="cart md:order-3 flex">
+            <div class="search hidden md:block">search</div>
+            <div>
+                cart acc
+            </div>
+        </div>
+    </div>
 </body>
 </html>
